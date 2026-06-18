@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meus Projetos</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #f5f7fa;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #333;
+    }
+
+    main {
+      flex: 1;
+      width: 100%;
+      max-width: 1000px;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    h2 {
+      margin-bottom: 30px;
+      color: #1f2937;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      border-radius: 6px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    th {
+      background: #616161;
+      color: white;
+      padding: 15px;
+    }
+
+    td {
+      padding: 12px;
+    }
+
+    a:hover {
+      color: #10006e;
+    }
+
+    footer {
+      width: 100%;
+      background: black;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h2>Esse é um site para que eu possa compartilhar meus projetos!</h2>
+
+    <table>
+      <tr>
+        <th style="width:25%">Tipo</th>
+        <th>Nome</th>
+        <th style="width:25%">Download</th>
+      </tr>
+      <tr>
+        <td>Windows Forms</td>
+        <td>Organizador de Jogos</td>
+        <td>
+          <a href="projetos/Organizador_de_Jogos.zip" download>
+            Download
+          </a>
+        </td>
+      </tr>
+    </table>
+  </main>
+
+  <footer>
+    Feito por Miguel Cappelli
+  </footer>
+
+</body>
+
+</html>
